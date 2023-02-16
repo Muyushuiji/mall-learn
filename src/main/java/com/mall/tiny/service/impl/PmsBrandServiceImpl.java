@@ -5,7 +5,6 @@ import com.mall.tiny.mbg.mapper.PmsBrandMapper;
 import com.mall.tiny.mbg.model.PmsBrand;
 import com.mall.tiny.mbg.model.PmsBrandExample;
 import com.mall.tiny.service.PmsBrandService;
-import com.mall.tiny.service.PmsBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
