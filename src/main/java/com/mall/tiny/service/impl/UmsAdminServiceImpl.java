@@ -6,6 +6,7 @@ import com.mall.tiny.mbg.mapper.UmsAdminMapper;
 import com.mall.tiny.mbg.model.UmsAdmin;
 import com.mall.tiny.mbg.model.UmsAdminExample;
 import com.mall.tiny.mbg.model.UmsPermission;
+import com.mall.tiny.service.CustomUserDetailService;
 import com.mall.tiny.service.UmsAdminService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,7 +36,7 @@ import java.util.List;
 public class UmsAdminServiceImpl implements UmsAdminService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UmsAdminServiceImpl.class);
     @Autowired
-    private UserDetailsService userDetailsService;
+    private CustomUserDetailService userDetailsService;
     @Autowired
     private JwtTokenUtil jwtTokenUtil;
     @Autowired
