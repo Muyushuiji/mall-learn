@@ -2,6 +2,8 @@ package com.mall.tiny.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 
+import javax.validation.constraints.NotEmpty;
+
 /**
  * @program: mall-learn
  * @description:
@@ -10,10 +12,10 @@ import io.swagger.annotations.ApiModelProperty;
  **/
 public class UmsAdminLoginParam {
     @ApiModelProperty(value = "用户名", required = true)
-//    @NotEmpty(message = "用户名不能为空")
+    @NotEmpty(message = "用户名不能为空")
     private String username;
     @ApiModelProperty(value = "密码", required = true)
-//    @NotEmpty(message = "密码不能为空")
+    @NotEmpty(message = "密码不能为空")
     private String password;
 
     public String getUsername() {

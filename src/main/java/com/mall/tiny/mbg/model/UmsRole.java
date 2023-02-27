@@ -11,7 +11,7 @@ public class UmsRole implements Serializable {
     /**
      * 名称
      *
-     * @mbggenerated
+     * @mbg.generated
      */
     @ApiModelProperty(value = "名称")
     private String name;
@@ -19,7 +19,7 @@ public class UmsRole implements Serializable {
     /**
      * 描述
      *
-     * @mbggenerated
+     * @mbg.generated
      */
     @ApiModelProperty(value = "描述")
     private String description;
@@ -27,7 +27,7 @@ public class UmsRole implements Serializable {
     /**
      * 后台用户数量
      *
-     * @mbggenerated
+     * @mbg.generated
      */
     @ApiModelProperty(value = "后台用户数量")
     private Integer adminCount;
@@ -35,7 +35,7 @@ public class UmsRole implements Serializable {
     /**
      * 创建时间
      *
-     * @mbggenerated
+     * @mbg.generated
      */
     @ApiModelProperty(value = "创建时间")
     private Date createTime;
@@ -43,7 +43,7 @@ public class UmsRole implements Serializable {
     /**
      * 启用状态：0->禁用；1->启用
      *
-     * @mbggenerated
+     * @mbg.generated
      */
     @ApiModelProperty(value = "启用状态：0->禁用；1->启用")
     private Integer status;
