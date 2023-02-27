@@ -1,5 +1,6 @@
-package com.mall.tiny.service;
+package com.mall.tiny.service.impl;
 
+import com.mall.tiny.service.UmsAdminService;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
